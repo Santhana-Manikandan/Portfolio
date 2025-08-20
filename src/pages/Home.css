@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.rainbow-bar-single {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(
+    to right,
+    #004e66 0%,
+    #004e66 16.66%,
+    #00758f 16.66%,
+    #00758f 33.33%,
+    #89c2d9 33.33%,
+    #89c2d9 50%,
+    #ffeedb 50%,
+    #ffeedb 66.66%,
+    #f4a261 66.66%,
+    #f4a261 83.33%,
+    #e76f51 83.33%,
+    #e76f51 100%
+  );
+  z-index: 1;
+}
+.home-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #d2b48c;
+  margin-bottom: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 0;
+  animation: revealText 2.5s steps(20) forwards;
+  border-right: none;
+}
+.caret {
+  font-size: 40px;
+  color: white;
+  margin-left: 2px;
+  animation: blink-caret 0.75s step-end infinite;
+  font-weight: 100;
+  font-family: "Courier New", monospace;
+}
+@keyframes revealText {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 1000px;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    opacity: 0;
+  }
+}
+.hero {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  margin: 20px 0;          
+}
+.hero-me {
+  width: 150px;              
+  height: 150px;
+  border-radius: 50%;        
+  border: 4px solid #d2b48c; 
+  object-fit: cover;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-me:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+.bio-text {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.8s ease 1.5s forwards;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background: #d2b48c;  /* Warm color */
+  color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #c19a6b;
+  color: white;
+}

@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.about-section {
+  max-width: 800px;
+  margin: 5px auto;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 12px;
+  color: white;
+  background-color: transparent !important;
+  scroll-margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-section h2 {
+  background-color: transparent !important;
+  font-size: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #c0d8e6;
+}
+
+.about-section p {
+  background-color: transparent !important;
+  font-size: 19px;
+  line-height: 1.8;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.about-section:hover {
+  transform: scale(1.02);
+  border-color: #00bfff;
+}
+
+/* Scroll Arrow  */
+.scroll-down {
+  margin-top: -80px;
+  display: flex;
+  justify-content: flex-end; /* Pushes arrow to right */
+  padding-right: 120px;
+  cursor: pointer;
+  color: #00bfff;
+  animation: bounce 3s infinite;
+  font-size: 32px;
+}
+
+/* education */
+.education-section {
+  max-width: 900px;
+  margin: 130px auto 100px auto;
+  padding: 20px;
+  text-align: center;
+  color: #c0d8e6;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  scroll-margin-top: 100px;
+}
+
+/* Shared card styles */
+.edu-card {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 20px 30px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  width: 460px;
+  max-width: 100%;
+}
+
+.edu-card:hover {
+  transform: scale(1.02);
+  border-color: #00bfff;
+}
+
+.edu-card h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #00bfff;
+}
+
+.edu-card p {
+  margin: 6px 0;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.college-card {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+}
+.cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 40px;
+  flex-wrap: nowrap;
+}
+.edu-location {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  font-size: 16px;
+}
+
+.edu-location a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.edu-location i {
+  color: red;
+  margin-right: 4px;
+}
+
+/* experience */
+.experience-container {
+  position: relative;
+  max-width: 900px;
+  margin: 130px auto 0px auto;
+  padding: 20px;
+  text-align: center;
+  color: #c0d8e6;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  scroll-margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.pro-card {
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 20px 30px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.procards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.pro-card:hover {
+  transform: scale(1.02);
+  border-color: #00bfff;
+}
+
+.pro-card h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #00bfff;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.pro-card p {
+  margin: 6px 0;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.experience-list {
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.experience-list li::marker {
+  color: orange;
+}
+
+.exp-location {
+  position: absolute;
+  bottom: 35px;
+  right: 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.exp-location a {
+  text-decoration: none;
+  color: white;
+}
+
+.exp-location i {
+  margin-right: 4px;
+  color: red;
+}
+
+/* skills */
+.skills-section {
+  padding: 60px 20px;
+  margin-top: 195px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.skills-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #c0d8e6;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  padding: 10px 18px;
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: #eee;
+}
+
+.tab-button.active {
+  background-color: #a3d5ff;
+  border-color: #a3d5ff;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px;
+  white-space: nowrap;
+}
+.skill-card {
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: none;
+  transition: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-card span {
+  font-size: 14.5px;
+  font-weight: bolder;
+  color: tan;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.skill-card img:hover {
+  transform: scale(1.1);
+}
+
+.skill-card:hover {
+  transform: none;
+}
+
+/*resume*/
+.resume-section {
+  max-width: 100%;
+  margin-top: 60px; 
+  padding: 40px 20px;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.resume-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.resume-heading i {
+  color: #00bfff;
+  animation: pulse 1.5s infinite;
+}
+
+.resume-viewer {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+.resume-viewer iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  display: block;
+}

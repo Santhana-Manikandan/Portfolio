@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*sidenav */
+#mySidenav a {
+  position: fixed;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+   z-index: 1000;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #567c8d;
+}
+
+#about {
+  top: 80px;
+  background-color: #c0d8e6;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f4a261;
+}
+
+#contact {
+  top: 200px;
+  background-color: #e76f51;
+}
+/* logo */
+.logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: -30px 0 0 -30px;
+}
+.logo-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+}
