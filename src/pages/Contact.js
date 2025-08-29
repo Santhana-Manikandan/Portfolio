@@ -26,13 +26,13 @@ export default function Contact() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="www.linkedin.com/in/santhana2006"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin />
           </a>
-          <a href="mailto:youremail@example.com">
+          <a href="mailto:msanthana2006@gmail.com">
             <FaEnvelope />
           </a>
         </div>

@@ -67,19 +67,28 @@
   align-items: center;      
   margin: 20px 0;          
 }
-.hero-me {
-  width: 150px;              
-  height: 150px;
-  border-radius: 50%;        
-  border: 4px solid #d2b48c; 
-  object-fit: cover;         
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.avatar-border {
+  display: inline-block;
+  padding: 4px; /* border thickness */
+  border-radius: 50%;
+  background: conic-gradient(
+    #004e66,
+    #00758f,
+    #89c2d9,
+    #ffeedb,
+    #f4a261,
+    #e76f51
+  );
+
+
 }
 
-.hero-me:hover {
-  transform: scale(1.05); 
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+.hero-me {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover;
+  display: block; 
 }
 .bio-text {
   margin-top: 15px;

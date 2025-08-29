@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Portfolio ",
     description: "My personal portfolio website built with react",
-    image: "/images/Blog.png",
+    image: "/images/mine.png",
     link: "https://santhana.vercel.app/",
   },
   {
