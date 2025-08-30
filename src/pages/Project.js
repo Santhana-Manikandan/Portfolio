@@ -1,8 +1,13 @@
 // src/pages/Project.js
 import React from 'react';
-import './Project.css'; // Import the normal CSS file
+import './Project.css'; 
+import { useEffect } from "react";
+
 
 const ProjectCard = ({ title, description, image, link }) => {
+   useEffect(() => {
+  document.title = "Santhana | Projects";
+}, []);
   return (
     <div className="project-card">
       <img src={image} alt={title} className="project-image" />

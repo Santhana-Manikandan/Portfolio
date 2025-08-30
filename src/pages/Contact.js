@@ -1,7 +1,13 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Contact.css";
+import { useEffect } from "react";
+
 
 export default function Contact() {
+    useEffect(() => {
+  document.title = "Santhana | Contact";
+}, []);
+
   return (
     <div className="contact-page">
       <div className="contact-card">

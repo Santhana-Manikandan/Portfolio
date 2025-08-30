@@ -2,11 +2,18 @@ import "./About.css";
 import { FaArrowDown } from "react-icons/fa";
 import { useRef, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { useEffect } from "react";
+
+
 
 function About() {
   const educationRef = useRef(null);
   const experienceRef = useRef(null);
   const skillsRef = useRef(null);
+
+  useEffect(() => {
+  document.title = "Santhana | About";
+}, []);
 
   const scrollTo = (ref) => {
     if (ref.current) {

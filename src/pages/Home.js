@@ -1,6 +1,10 @@
 import "./Home.css";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+  document.title = "Santhana | Home";
+}, []);
   return (
     <div className="home-container">
       <div className="rainbow-bar-single"></div>
