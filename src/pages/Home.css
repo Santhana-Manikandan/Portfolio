@@ -122,3 +122,72 @@
   background: #c19a6b;
   color: white;
 }
+
+/* Mobile devices (up to 600px wide) */
+@media (max-width: 600px) {
+  .home-title {
+    font-size: 28px; 
+    text-align: center;
+  }
+
+  .hero-me {
+    width: 100px;
+    height: 100px;
+  }
+
+  .bio-text {
+    font-size: 14px;
+    padding: 0 10px; 
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .rainbow-bar-single {
+    height: 20px;
+  }
+}
+
+/* Tablets (600px – 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .home-title {
+    font-size: 36px;
+  }
+
+  .hero-me {
+    width: 120px;
+    height: 120px;
+  }
+
+  .bio-text {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+
+/* Large screens (desktops/laptops) */
+@media (min-width: 1025px) {
+  .home-title {
+    font-size: 48px;
+  }
+
+  .hero-me {
+    width: 150px;
+    height: 150px;
+  }
+
+  .bio-text {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+}
