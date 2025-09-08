@@ -317,3 +317,194 @@
   border: none;
   display: block;
 }
+/* ================= MOBILE (up to 600px) ================= */
+@media (max-width: 600px) {
+  .about-section {
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
+  .about-section h2 {
+    font-size: 28px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .scroll-down {
+    justify-content: center;
+    padding-right: 0;
+    font-size: 26px;
+    margin-top: -40px;
+  }
+
+  .education-section {
+    margin: 80px auto 60px auto;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .college-card {
+    padding: 15px;
+  }
+
+  .cards-row {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .edu-card {
+    width: 100%;
+    max-width: 350px;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .edu-card h3 {
+    font-size: 20px;
+  }
+
+  .experience-container {
+    margin: 80px auto 60px auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .pro-card {
+    padding: 15px;
+  }
+
+  .pro-card h3 {
+    font-size: 20px;
+  }
+
+  .experience-list {
+    font-size: 15px;
+  }
+
+  .exp-location {
+    position: static;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .skills-title {
+    font-size: 22px;
+  }
+
+  .skills-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .skill-card {
+    min-width: 60px;
+    padding: 10px;
+  }
+
+  .skill-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .resume-section {
+    padding: 20px 10px;
+  }
+
+  .resume-viewer iframe {
+    height: 400px;
+  }
+}
+
+/* ================= TABLET (601px – 1024px) ================= */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about-section {
+    padding: 30px;
+    margin-bottom: 80px;
+  }
+
+  .about-section h2 {
+    font-size: 32px;
+  }
+
+  .about-section p {
+    font-size: 17px;
+  }
+
+  .education-section {
+    margin: 100px auto 80px auto;
+    font-size: 18px;
+  }
+
+  .cards-row {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .edu-card {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .experience-container {
+    margin: 100px auto 80px auto;
+    font-size: 18px;
+  }
+
+  .exp-location {
+    position: static;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .skills-title {
+    font-size: 24px;
+  }
+
+  .skills-grid {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .resume-section {
+    padding: 30px 15px;
+  }
+
+  .resume-viewer iframe {
+    height: 500px;
+  }
+}
+
+/* ================= LARGE DESKTOPS (1025px and above) ================= */
+@media (min-width: 1025px) {
+  .about-section h2 {
+    font-size: 40px;
+  }
+
+  .about-section p {
+    font-size: 19px;
+  }
+
+  .edu-card {
+    width: 460px;
+  }
+
+  .exp-location {
+    bottom: 35px;
+    right: 40px;
+    position: absolute;
+    text-align: right;
+  }
+
+  .skills-title {
+    font-size: 28px;
+  }
+
+  .resume-viewer iframe {
+    height: 600px;
+  }
+}
